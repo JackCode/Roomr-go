@@ -1,2 +1,2 @@
 # Roomr-go
-An internal hote inventory filter and search tool.
+An internal hotel inventory filter and search tool.

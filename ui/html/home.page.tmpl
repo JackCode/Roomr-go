@@ -1,0 +1,7 @@
+{{template "base" .}}
+
+{{define "body"}}
+    {{range .Rooms}}
+        {{.RoomNumber}} - ({{.RoomType.ShortCode}}): {{.BathroomStyle.LongDescription}}<br>
+    {{end}}
+{{end}}
